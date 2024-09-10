@@ -1,0 +1,233 @@
+html, body{
+    margin: 0;
+    font-family: 'Helvatica Nue',Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: black;
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(images/netflixteaser.png);
+    height: 100vh;
+}
+nav img{
+    width: 128px;
+    height: 38px;
+    vertical-align: middle;
+}
+
+nav a.logo{
+display: inline-block;
+line-height: 70px;
+margin-left: 11.5%;
+}
+
+nav a.sign-in{
+    color: #fff;
+    float: right;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 22px;
+    margin-right: 13%;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 6px 13px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.pitch{
+    margin: 0 15%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.title{
+    font-size: 2.8rem;
+    margin: 0 0 0.2rem;
+    font-weight: 900;
+}
+
+.subtitle{
+    margin: 0 0 2rem;
+}
+
+.membership{
+    font-size: 16px;
+
+}
+
+.btn{
+    font-size: 18px;
+    /* letter-spacing: 1.9px; */
+    font-weight: 500;
+    margin: .8em .5em .5em 0;
+    padding: 12px 4%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e50914;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    user-select: none;
+    border: none;
+}
+
+#myEmail{
+background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+border-radius: 3px;
+height: 42px;
+width: 270px;
+user-select: none;
+cursor: pointer;
+
+}
+
+nav .signin:hover .btn:hover{
+    background: gray;
+}
+
+.line{
+    margin: 0;
+    padding: 2px;
+    background-color: #999;
+    border: 0;
+}
+
+/* FAQ Section */
+
+.faq-section{
+    margin-bottom: 50px;
+}
+
+.heading{
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.qs{
+    vertical-align: middle;
+    background-color: #494747ad;
+    height: 60px;
+    margin:0 11%;;
+    font-size: 19px;
+    padding: 18px 17px;
+    font-weight: 500;
+}
+
+.faq-line{
+    margin: 0;
+    padding: 4px;
+    background-color: #000000;
+    border: 0;
+}
+
+.faq-subtitle{
+   text-align: center;
+   margin-top: 4%;
+   font-size: 17px;
+}
+
+.faq-btn{
+    margin-left: .5%;
+    padding: 10px 1.5%;
+    font-size: 18px;
+    /* letter-spacing: 1.9px; */
+    font-weight: 500;
+    
+   
+    cursor: pointer;
+    color: #fff;
+    background-color: #e50914;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    user-select: none;
+    border: none;
+}
+
+.faq-mail{
+    margin-left: 310px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+    border-radius: 3px;
+    height: 40px;
+    width: 270px;
+    user-select: none;
+    cursor: pointer;
+   
+}
+
+
+/* Footer Section */
+
+footer{
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 1000px;
+    color: #999;
+    padding-left: 10%;
+}
+    
+
+
+footer a{
+    color: #999;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+
+/* .center{
+    color: #fff;
+} */
+
+.cols{
+    display: flex;
+}
+
+.cols.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.col{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.col.is-25{
+    flex: none;
+    width: 25%;
+}
+
+footer > p{
+    margin: 0 0 30px;
+}
+
+footer > ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer > ul > li{
+    list-style: none;
+    margin: 0 0 16px;
+    padding-right: 12px;
+    font-size: 11px;
+    min-width: 100px;
+}
+
